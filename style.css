@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 10vh;
+    background-color: #AFAFAF;
+    display: flex;
+    padding: 0 4%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 9vh;
+    height: 2vh;
+    background-color: white;
+    border-radius: 1vh;
+}
+
+nav {
+    width: 45vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li a {
+    color: white;
+}
+
+li:last-child a {
+    color: #AFAFAF;
+    background-color: white;
+    border-radius: 1vh;
+    width: 9vh;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-content {
+    height: 90vh;
+    background-color: #AFAFAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-content-container {
+    padding: 0 6%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-img {
+    background-color: #BEBEBE;
+    width: 10vh;
+    height: 45vh;
+    flex: 0 0 48%;
+}
+
+.welcome {
+    flex: 0 0 48%;
+    width: 10vh;
+    height: 45vh;
+}
+
+h1 {
+    color: #FEFEFE;
+    font-size: 8vw;
+}
+
+.welcome-text {
+    width: 35vw;
+    height: 2vh;
+    background-color: #EAEAEA;
+}
+
+.welcome-text:nth-child(2)  {
+    margin-top: 4vh;
+}
+
+.welcome-text:nth-child(3) {
+    margin: 1vh 0 4vh 0;
+}
+
+.link-welcome {
+    height: 3vh;
+    width: 12vw;
+    background-color: #d5d5d5;
+    border-radius: 1vh;
+}
+
+.link-welcome a {
+    color: white;
+    height: 3vh;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+.card {
+    flex-basis: 30%;
+    margin-top: -10vh;
+}
+
+.card-picture {
+    height: 30vh;
+    background-color: #EAEAEA;
+}
+
+.large-text-card {
+    font-size: 3vw;
+    margin-top: 3vh;
+}
+
+.small-text-card {
+    font-size: 1.5vw;
+    margin-top: 1.5vh;
+}
+
+.card-tex {
+    width: 27vw;
+    height: 2vh;
+    background-color: #EAEAEA;
+}
+
+.card-tex:nth-child(4)  {
+    margin-top: 4vh;
+}
+
+.card-tex:nth-child(5) {
+    margin: 1vh 0 4vh 0;
+    width: 25vw;
+}
+
+.card a {
+    display: flex;
+    justify-content: flex-end;
+    color: #A6A6A6;
+    font-size: 1.5vw;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    margin-top: 4vh;
+}
